@@ -1,0 +1,26 @@
+.nav{
+    display:flex;
+    
+}
+.logo{
+  
+    flex:1;
+}
+.topnav{
+    
+    flex:3.5;
+    margin-left: 0px;
+}
+.topnav a{
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 30px;
+
+}
+.topnav a:hover{
+    color: red;
+    
+}
+.topnav a.active{
+    color:red;
+}
